@@ -1,0 +1,42 @@
+1.50
+====
+* New option resizegripstyle
+* New value for menubaritemstyle option
+1.40
+====
+* New options menubaritemstyle, scrollbartrough, textstyle and textshade
+* Rendering of progressbars improved
+* Better support of dark themes
+* Some changes in displaying focuses
+* FIX: some crashes with Evolution
+1.30.3
+======
+* The scrollbar trough is rendered with parent's background color when scrollbarstyle=4
+1.30.2
+======
+* Improve gradient rendering of listitems background
+1.30
+====
+* New options menubarborders and listviewitemstyle
+* New values for menubarstyle and scrollbarstyle options
+* FIX: selected menuitems colour too flashy
+1.20
+====
+* Overall performance improved
+* New option progressbarstyle for gradient or glassy rendering of progressbars
+* New option separatorstyle for solid or gradient rendering of separators
+* New values for menubarstyle option : 2 = flat menubar without border, 3 = gradient menubar without border
+* New values for toolbarstyle option : 2 = flat toolbar without border, 3 = gradient toolbar without border
+* FIX : background is to dark when entry is in toolbar
+* FIX : menuitems border is to light for some selected colors
+
+1.1
+===
+* Progressbars and tabs now accept curvature option.
+* Curvature of buttons, entries, scrollbar sliders, progressbars and tabs are capped (according to control size).
+* Engine provide a new option for GTK themes for rendering menuitems with gradient or glassy style.
+* Tabs focus rendering has been modified.
+
+1.0
+===
+* First public release

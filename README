@@ -1,0 +1,15 @@
+To compile run the following commands :
+	./configure --prefix=/usr --enable-animation
+	make
+
+On fedora 64 bits, you should run :
+	./configure --prefix=/usr --libdir=/usr/lib64 --enable-animation
+	make
+
+Then install as root user :
+             ------------
+	make install
+
+
+To uninstall:
+	make uninstall
